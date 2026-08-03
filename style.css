@@ -42,8 +42,7 @@
     min-height:100vh;
     display:flex; align-items:center;
     position:relative;
-    /* IMAGE À INSÉRER : photo de fond du hero (grand paysage, ex. montagne/lac/plage panoramique).
-       Remplace juste l'URL ci-dessous par le chemin de ton image, ex. "images/hero.jpg" */
+    /* IMAGE INSÉRER */
     background:
       linear-gradient(180deg, rgba(10,50,52,.55) 0%, rgba(10,50,52,.88) 100%),
       url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
@@ -108,7 +107,7 @@
     background:rgba(10,50,52,.35);
   }
 
-  /* --- CIRCUITS / ACCORDEON --- */
+  /* --- CIRCUITS --- */
   .circuits{ background:var(--ocean); color:var(--sand); }
   .circuits .section-sub{ color:rgba(245,235,221,.7); }
   .accordion-item{
