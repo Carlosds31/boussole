@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boussole Voyages</title>
+
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg fixed-top py-3">
+  <div class="container">
+    <a class="navbar-brand brand" href="#accueil"><i class="fa-solid fa-compass"></i>Boussole</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#accueil"><i class="fa-solid fa-house"  style="color: #ff6b4a;"></i>Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinations"><i class="fa-solid fa-map" style="color: #ff6b4a;"></i>Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#circuits"><i class="fa-solid fa-route" style="color: #ff6b4a;"></i>Circuits</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa-duotone fa-regular fa-address-book" style="color: #ff6b4a;"></i>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--HERO-->
+<header class="hero" id="accueil">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="eyebrow"><i class="fa-solid fa-location-arrow"></i> Voyages sur mesure, sans intermédiaire</div>
+        <h1>Chaque tampon de passeport<br>a une <span>histoire</span> derrière lui</h1>
+        <p class="lead">Boussole conçoit des circuits façonnés autour de vos envies : moins de cases à cocher, plus de rencontres. Du Sénégal à la Thaïlande, nous ouvrons la route.</p>
+        <a href="#circuits" class="btn btn-coral">Voir nos circuits <i class="fa-solid fa-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== DESTINATIONS ===== -->
+<section class="destinations" id="destinations">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-eyebrow">Où partir</div>
+      <h2 class="section-title">Destinations phares</h2>
+      <p class="section-sub mx-auto">Une sélection resserrée, choisie pour sa densité d'expériences plutôt que pour sa longueur.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="dest-card">
+          <!-- Image de Sine Saloum / Sénégal-->
+          <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=700&q=80" alt="Sine Saloum, Sénégal"> 
+          <div class="stamp"><i class="fa-solid fa-star fa-2xl" style="color: rgb(255, 212, 59);"></i>SEN</div>
+          <div class="overlay">
+            <h3>Sine Saloum</h3>
+            <p>Mangroves, pirogues et villages de pêcheurs hors du temps.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="dest-card">
+          <!-- Image de Maroc -->
+           <img src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=700&q=80" alt="Marrakech, Maroc">
+          <div class="stamp"><i class="fa-solid fa-star fa-2xl" style="color: rgb(255, 212, 59);"></i>MAR</div>
+          <div class="overlay">
+            <h3>Marrakech</h3>
+            <p>Médina ocre, riads secrets et montagnes de l'Atlas à l'horizon.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="dest-card">
+          <!-- Image de Lisbonne -->
+           <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=700&q=80" alt="Lisbonne, Portugal">
+          <div class="stamp"><i class="fa-solid fa-star fa-2xl" style="color: rgb(255, 212, 59);"></i>PRT</div>
+          <div class="overlay">
+            <h3>Lisbonne</h3>
+            <p>Ruelles pentues, azulejos et lumière dorée sur le Tage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="dest-card">
+          <!-- Image de Thaïlande -->
+          <img src="https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?auto=format&fit=crop&w=700&q=80" alt="Chiang Mai, Thaïlande">
+          <div class="stamp"><i class="fa-solid fa-star fa-2xl" style="color: rgb(255, 212, 59);"></i>THA</div>
+          <div class="overlay">
+            <h3>Chiang Mai</h3>
+            <p>Temples dans la brume et vallées verdoyantes du nord thaïlandais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CIRCUITS -->
+<section class="circuits" id="circuits">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-eyebrow">Circuits organisés</div>
+      <h2 class="section-title">Trois itinéraires, un seul principe : ralentir</h2>
+      <p class="section-sub mx-auto">Chaque circuit est encadré par un guide local et limité à huit voyageurs.</p>
+    </div>
+
+    <div class="accordion" id="accordionCircuits">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#circuit1">
+            Racines &amp; Saveurs — Sénégal
+          </button>
+        </h2>
+        <div id="circuit1" class="accordion-collapse collapse show" data-bs-parent="#accordionCircuits">
+          <div class="accordion-body">
+            De Dakar au delta du Sine Saloum : marchés, cuisine familiale et navigation en pirogue traditionnelle, au rythme des marées.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#circuit2">
+            Médinas &amp; Déserts — Maroc
+          </button>
+        </h2>
+        <div id="circuit2" class="accordion-collapse collapse" data-bs-parent="#accordionCircuits">
+          <div class="accordion-body">
+            De Marrakech aux dunes de Merzouga, en passant par les gorges du Dadès et une nuit sous tente berbère.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#circuit3">
+            Temples &amp; Plages — Thaïlande
+          </button>
+        </h2>
+        <div id="circuit3" class="accordion-collapse collapse" data-bs-parent="#accordionCircuits">
+          <div class="accordion-body">
+            De Chiang Mai à Koh Lanta : temples de montagne, cours de cuisine thaïe et îles préservées de la mer d'Andaman.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="section-eyebrow">Parlons voyage</div>
+        <h2 class="section-title mb-4">Un projet en tête ?</h2>
+        <p class="section-sub mb-4">Décrivez-nous votre envie, on vous répond sous 48h avec une proposition d'itinéraire.</p>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="nom">Nom complet</label>
+              <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">Adresse e-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="vous@exemple.com">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="destination">Destination qui vous intéresse</label>
+              <select class="form-select" id="destination">
+                <option selected>Choisir une destination</option>
+                <option>Sénégal — Sine Saloum</option>
+                <option>Maroc — Marrakech &amp; désert</option>
+                <option>Portugal — Lisbonne</option>
+                <option>Thaïlande — Chiang Mai</option>
+                <option>Autre / je ne sais pas encore</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Dates envisagées, nombre de voyageurs, budget approximatif..."></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-coral">Envoyer ma demande</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <!--Image prise direct sur le web -->
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80" alt="Carte et préparation de voyage" class="img-fluid rounded-4 h-100 w-100" style="object-fit:cover;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+    <small>&copy; 2026 Boussole Voyages — Tous droits réservés.</small>
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: rgb(177, 151, 252);"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: rgb(177, 151, 252);"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter fa-2xl" style="color: rgb(177, 151, 252);"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp fa-2xl" style="color: rgb(177, 151, 252);"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest fa-2xl" style="color: rgb(177, 151, 252);"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
