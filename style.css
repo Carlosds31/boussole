@@ -171,3 +171,9 @@
   }
 
  
+
+/* --- Styles déplacés depuis le HTML (styles inline) --- */
+.navbar-nav .nav-link i { color: #ff6b4a; }
+.stamp i { color: rgb(255, 212, 59); }
+.contact-section .col-lg-6 img { object-fit: cover; }
+.social a i { color: rgb(177, 151, 252); }
